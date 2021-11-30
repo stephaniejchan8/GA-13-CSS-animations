@@ -1,0 +1,79 @@
+body {
+  font-family: 'Lora', serif;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.text-time {
+  text-align: center;
+}
+
+.button {
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px auto;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 300px;
+}
+
+.subtle-button {
+  background-color: goldenrod;
+  transition: 0.5s ease-out;
+}
+
+.subtle-button:hover {
+background-color: rgba(212, 108, 10, 0.904);
+}
+
+.sideways-gradient {
+  height: 200px;
+  margin: 10px;
+  background-image: linear-gradient(to right, pink, purple);
+}
+
+.mcconaughey {
+  animation: spin 2s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.mcconaughey-caption {
+  text-align: center;
+}
+
+.ice-cream-dance {
+  animation: skew 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes skew {
+  0% {
+    transform: skew(20deg) translateX(100px);
+  }
+  50% {
+    transform: skew(0deg) translateX(0);
+  }
+  100% {
+    transform: skew(-20deg) translateX(-100px);
+  }
+}
